@@ -1,0 +1,22 @@
+.CartItem {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.CartItem div {
+  width: 25%;
+}
+
+.CartItem button {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(207, 207, 207);
+  border-radius: 6px;
+  border: none;
+  margin: 0 3px;
+}
+
+.CartItem button:disabled {
+  background-color: rgb(240, 240, 240);
+}

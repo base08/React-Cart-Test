@@ -1,0 +1,36 @@
+.Counter {
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+  width: 500px;
+  text-align: center;
+  box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+.Counter:hover {
+  box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.4);
+  transform: translate3d(0, -2px, 0);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.Counter h2 {
+  font-weight: 500;
+  font-size: 4em;
+  color: rgb(163, 58, 58);
+  margin: 10px;
+}
+
+.Counter button {
+  font-size: 1rem;
+  color: white;
+  background-color: rgba(255, 89, 89, 0.5);
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.Counter button:hover {
+  background-color: rgba(255, 89, 89, 1);
+}
